@@ -1,0 +1,14 @@
+<template>
+    <lightning-card  variant="Narrow"  title="Accounts" icon-name="standard:account">    
+        <div if:true={accounts.data} class="slds-p-horizontal_small">
+            <!-- sldsValidatorIgnoreNextLine -->
+            <lightning-datatable
+                key-field="id"
+                data={accounts.data}
+                show-row-number-column
+                hide-checkbox-column
+                columns={columnsList}>
+            </lightning-datatable>
+        </div>
+    </lightning-card>
+</template>

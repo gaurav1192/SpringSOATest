@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <types>
+        <members>*</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SprigSOACallout</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SpringSOAController</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SpringSOATriggerHandler</members>
+        <name>ApexClass</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>SpringSOATrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    
+   
+    <types>
+        <members>*</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Spring_SOA_Test</members>
+        <name>CustomApplication</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Account.Number_of_Contacts__c</members>
+        <name>CustomField</name>
+    </types>
+    
+
+    <types>
+        <members>*</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Recent_Accounts</members>
+        <name>CustomTab</name>
+    </types>
+
+
+    <types>
+        <members>*</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Recent_Accounts</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Spring_SOA_Test_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+
+    
+    <types>
+        <members>*</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>springSOA</members>
+        <name>LightningComponentBundle</name>
+    </types>
+
+
+    <types>
+        <members>*</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+    <types>
+        <members>foo_bar_http</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+
+    <version>51.0</version>
+</Package>
